@@ -1,0 +1,98 @@
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    text-align: center;
+    padding: 30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    display: flex;
+    background-image: url(img/BJK.jpg);
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.bacground {
+    width: 100%;
+    height: auto;
+}
+
+.skorbord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    padding: 20px;
+    margin-top: 200px;
+}
+
+.nameFootballTeam {
+    color: #ffffff;
+    font-size: 37px;
+    margin-left: 30px;
+
+}
+
+.nameFootballTeam2 {
+    color: #ffffff;
+    font-size: 37px;
+    margin-right: 50px;
+}
+
+.nameSkorbord {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+
+.teamA {
+    margin-right: 190px;
+    margin-top: 20px;
+}
+
+.teamB {
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.goalButton {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.won .winningTeam {
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: none;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.golButon:hover {
+    background-color: #45a049;
+}
+
+.conclusion {
+    margin-top: 20px;
+    border: 1px solid none;
+    border-radius: 50px;
+    font-size: 33px;
+    background-color: #45a049;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 5px;
+}
