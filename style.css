@@ -51,13 +51,27 @@ body {
 
 
 .teamA {
+    background-color: #67c07f;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    box-sizing: border-box;
     margin-right: 190px;
-    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .teamB {
+    text-align: center;
+    background-color: #67c07f;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    box-sizing: border-box;
     margin-left: 190px;
-    margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 .goalButton {
